@@ -11,7 +11,7 @@ export default function DownloadButton() {
     if (result.success) {
       // Trigger file download
       const link = document.createElement('a')
-      link.href = '/game.zip'
+      link.href = 'https://rohan-005.itch.io/the-timber-curse'
       link.download = 'TheTimberCurse.zip'
       document.body.appendChild(link)
       link.click()
