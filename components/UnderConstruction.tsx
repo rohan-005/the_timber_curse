@@ -1,4 +1,5 @@
 // components/UnderConstruction.js
+'use client'
 import { useState, useEffect } from 'react';
 import { Hammer, Clock, Skull, Eye, EyeOff } from 'lucide-react';
 
@@ -77,4 +78,5 @@ export default function UnderConstruction() {
       </div>
     </div>
   );
+
 }
