@@ -11,17 +11,17 @@ export default function Home() {
       {/* <AnimatedBackground /> */}
       {/* <FloatingGhosts /> */}
       
-{/*       <HeroSection /> */}
+      <HeroSection />
 
-      <UnderConstruction/>
+{/*       <UnderConstruction/> */}
       
-{/*       <div className="relative z-1">
+      <div className="relative z-1">
         <AboutSection />
         <InteractiveTimeline />
         <CursedItems />
         <LinksSection />
         <Footer />
-      </div> */}
+      </div>
     </main>
   )
 }
